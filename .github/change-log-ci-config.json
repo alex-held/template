@@ -1,0 +1,37 @@
+{
+  "commit_changelog": true,
+  "comment_changelog": true,
+  "header_prefix": "Version:",
+  "pull_request_title_regex": ".*",
+  "version_regex": "v?([0-9]{1,2})+[.]+([0-9]{1,2})+[.]+([0-9]{1,2})\\s\\(\\d{1,2}-\\d{1,2}-\\d{4}\\)",
+  "group_config": [
+    {
+      "title": "🐞 Bug Fixes",
+      "labels": ["fix"]
+    },
+    {
+      "title": "⚒️ Chores",
+      "labels": ["chore"]
+    },
+    {
+      "title": "🎁 Features",
+      "labels": ["feat"]
+    },
+    {
+      "title": "🧪 Refactor",
+      "labels": ["refactor"]
+    },
+    {
+      "title": "💅🏻 Style",
+      "labels": ["style"]
+    },
+    {
+      "title": "🤖 CI",
+      "labels": ["ci"]
+    },
+    {
+      "title": "📃 Documentation",
+      "labels": ["docs"]
+    }
+  ]
+}
