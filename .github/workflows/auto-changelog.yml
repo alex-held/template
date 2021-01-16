@@ -2,7 +2,6 @@ name: auto-changelog
 
 on:
   pull_request:
-  workflow_dispatch:
     
 jobs:
   auto-changelog:
@@ -18,6 +17,3 @@ jobs:
           committer_email: github-actions@github.com
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - uses: ardalanamini/auto-changelog@v1.1.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
