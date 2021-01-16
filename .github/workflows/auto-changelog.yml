@@ -1,7 +1,8 @@
-name: Changelog
+name: auto-changelog
 
 on:
   pull_request
+  workflow_dispatch:
     
 jobs:
   auto-changelog:
