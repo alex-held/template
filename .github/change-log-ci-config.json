@@ -2,8 +2,6 @@
   "commit_changelog": true,
   "comment_changelog": true,
   "header_prefix": "Version:",
-  "pull_request_title_regex": "release:",
-  "version_regex": "v?([0-9]{1,2})+[.]+([0-9]{1,2})+[.]+([0-9]{1,2})\\s\\(\\d{1,2}-\\d{1,2}-\\d{4}\\)",	
   "group_config": [
     {
       "title": "🐞 Bug Fixes",
