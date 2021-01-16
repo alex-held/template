@@ -1,3 +1,13 @@
+# Version: 1.0.1
+
+
+#### ⚒️ Chores
+
+
+* [#9](https://github.com/alex-held/template/pull/9): Release 1.0.0
+
+
+
 # Version: 1.0.0
 
 
